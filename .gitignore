@@ -1,0 +1,32 @@
+# Python 缓存与编译产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# PyInstaller 打包产物
+build/
+dist/
+*.spec
+*.manifest
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 运行期输出（ui_snapshot.py 生成的截图仍会被跟踪，
+# 因为它输出到已纳入版本控制的 shots/ 目录）
+*.log
